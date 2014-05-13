@@ -36,15 +36,10 @@ Template.layout.created = function() {
   $('head').append('<script type="text/javascript" src="js/stellar.js">');
   $('head').append('<script type="text/javascript" src="js/jquery.appear.js">');
   $('head').append('<script type="text/javascript" src="js/validate.js">');
-  $('head').append('<script type="text/javascript" src="js/main.js">');
+  // $('head').append('<script type="text/javascript" src="js/main.js">');
 
 }
 
-// $.getScript('assets/js/script.js', function() {
-//       initNavbar();
-//       initPortfolio();
-//       initAnimations();
-//       initTwitterFeed();
-//       $(".loader .fading-line").fadeOut();
-//       $(".loader").fadeOut("slow");
-// });
+$.getScript( "js/primary.js", function() {
+  console.log("Javascript is loaded");
+});
