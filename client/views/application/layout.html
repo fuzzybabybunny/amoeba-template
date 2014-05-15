@@ -6,75 +6,46 @@
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 						<span class="fa fa-bars color-white"></span>
 					</button>
-					<h1><a class="navbar-brand" href="index.html" data-0="line-height:90px;" data-300="line-height:50px;">			Amoeba
+					<h1><a class="navbar-brand" href="#section-home" data-0="line-height:90px;" data-300="line-height:50px;">
+						{{address1}}
 					</a></h1>
 				</div>
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
-						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="#section-about">About</a></li>
-						<li><a href="#section-works">Portfolio</a></li>
+						<li class="active"><a href="#section-home">Home</a></li>
+						<li><a href="#section-video">Video</a></li>
+						<li><a href="#section-specs">Specs</a></li>
 						<li><a href="#section-contact">Contact</a></li>
 					</ul>
 				</div><!--/.navbar-collapse -->
 			</div>
 		</div>
 
-		<section class="featured">
+		<section id="section-home" class="featured">
 			<div class="container">
-				<div class="row mar-bot40">
-					<div class="col-md-6 col-md-offset-3">
+				<div class="row">
+					<div class="col-md-12">
 
 						<div class="align-center">
-							<i class="fa fa-flask fa-5x mar-bot20"></i>
-							<h2 class="slogan">Welcome to Amoeba</h2>
-							<p>
-							Lorem ipsum dolor sit amet, natum bonorum expetendis usu ut.
-							Eum impetus offendit disputationi eu, at vim aliquip lucilius praesent.
-							Alia laudem antiopam te ius, sed ad munere integre, ubique facete sapientem nam ut.
 
-							</p>
+							<iframe src="http://localhost:5000/" style="width:1384px;height:862px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<!-- services -->
-		<section id="section-services" class="section pad-bot30 bg-white">
+		<!-- video -->
+		<section id="section-video" class="section pad-bot30 bg-white">
 		<div class="container">
 
 			<div class="row mar-bot40">
-				<div class="col-lg-4" >
+				<div class="col-lg-12" >
 					<div class="align-center">
-						<i class="fa fa-code fa-5x mar-bot20"></i>
-						<h4 class="text-bold">Valid HTML5</h4>
-						<p>Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no.
-						Mei cu dicat voluptaria volumus.
-						</p>
+						<iframe width="900" height="506" src="{{video}}" frameborder="0" allowfullscreen></iframe>
 					</div>
 				</div>
-
-				<div class="col-lg-4" >
-					<div class="align-center">
-						<i class="fa fa-terminal fa-5x mar-bot20"></i>
-						<h4 class="text-bold">Responsive</h4>
-						<p>Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no.
-						Mei cu dicat voluptaria volumus.
-						</p>
-					</div>
-				</div>
-
-				<div class="col-lg-4" >
-					<div class="align-center">
-						<i class="fa fa-bolt fa-5x mar-bot20"></i>
-						<h4 class="text-bold">Customizable</h4>
-						<p>Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no.
-						Mei cu dicat voluptaria volumus.
-						</p>
-					</div>
-				</div>
-
 			</div>
 
 		</div>
@@ -101,8 +72,8 @@
 			</div>
 		</section>
 
-		<!-- about -->
-		<section id="section-about" class="section appear clearfix">
+		<!-- specs -->
+		<section id="section-specs" class="section appear clearfix">
 		<div class="container">
 
 				<div class="row mar-bot40">
